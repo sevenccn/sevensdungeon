@@ -27,6 +27,13 @@ border-bottom: 0.2em solid rgb(38, 29, 1) ;
 font-size: 3em;
 }
 
+.pictures img{
+
+    height: 50vw;
+    width: 100vw;
+    }
+
+
 
 .home main nav a {
     width: 250px;
@@ -58,8 +65,11 @@ nav a.active {
     transform: translateY(-10px);
 }
 
+header a {
+    background-color: rgb(138, 137, 137);
+}
 nav a {
-    color: rgb(84, 68, 68);
+    color: rgb(215, 215, 215);
     text-decoration: none;
     font-size: 3em;
 }
