@@ -92,6 +92,14 @@ footer ul li a {
 }
 
 
+.me {
+    display: block;
+    width: 700px;
+    height: 400px;
+    margin: 20px auto; /* Centers the image */
+}
+
+
 .project-gallery {
     text-align: center; /* Centers the h2 */
     margin-bottom: 20px;
@@ -141,11 +149,13 @@ footer ul li a {
 
 .cv {
     display: flex;
-    gap: 20px; /* Ruimte tussen de afbeeldingen */
+    gap: 20px;
     justify-content: center;
+    padding: 1em;
 }
 
 .cv img {
     width: 30vw;
-    height: 100vh;
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 10px;
 }
